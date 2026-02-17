@@ -1,0 +1,39 @@
+PDFs
+ ↓
+loader.py        → load_pdfs_from_directory()
+ ↓
+chunker.py       → chunk_documents()
+ ↓
+embedder.py      → get_embedding_model()
+ ↓
+indexer.py       → create_or_update_vector_store()
+ ↓
+FAISS (trusted KB)
+
+
+📂 ingestion/loader.py
+ Responsibility: Load institute PDFs into LangChain Documents
+Uses official LangChain PDF loader
+Preserves page-level metadata
+Adds source → crucial for explainability
+
+📂 ingestion/chunker.py
+ Responsibility: Convert raw documents → semantic chunks
+800 tokens → preserves concept-level context
+150 overlap → avoids broken explanations
+Recursive splitter → best default for PDFs
+
+📂 ingestion/embedder.py
+Responsibility: Initialize HuggingFace embedding model
+model_name="sentence-transformers/all-MiniLM-L6-v2",
+
+📂 ingestion/indexer.py
+ Responsibility: Store chunks in FAISS vector DB
+Supports incremental ingestion
+Faculty can upload content multiple times
+Local FAISS → zero infra
+
+
+🎯 What You Can Say in a Review / Interview
+
+“The ingestion pipeline is deterministic, semantic-aware, and restricted to faculty-uploaded content. Chunking is optimized for concept integrity, and embeddings are open-source to ensure institutional control.”

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "b14f8d54-f860-4caa-8fbb-7a44391b8718",
+    "question": "what is DDL DML TCL in DBMS",
+    "confidence": 0.45,
+    "sources": [
+      {
+        "source": "Unit 3.pdf",
+        "page": 20
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 5
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 1
+      }
+    ],
+    "answer": "Out of Syllabus Question",
+    "status": "answered"
+  },
+  {
+    "id": "47443b4e-fbf6-4eaa-a8dc-52db5ea5f45c",
+    "question": "what is normalisation in DBMS",
+    "confidence": 0.2,
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 1
+      }
+    ],
+    "answer": "Normalisation is mainly 6 types \n1NF , 2NF , 3NF , BCNF, 4 NF, 5 NF\nIn which we basically try to reduce redundancy ",
+    "status": "answered"
+  },
+  {
+    "id": "010739cf-d626-4d65-a4de-0f22664363aa",
+    "question": "what is normalisation in DBMS",
+    "confidence": 0.2,
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 1
+      }
+    ],
+    "answer": "temp answer",
+    "status": "answered"
+  }
+]

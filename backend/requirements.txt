@@ -1,0 +1,29 @@
+# Backend
+fastapi
+uvicorn
+python-dotenv
+pydantic
+
+# LangChain Core
+langchain
+langchain-community
+langchain-core 
+langchain-huggingface
+huggingface-hub
+
+# Vector DB
+faiss-cpu
+
+# Document parsing
+pypdf
+
+# Embeddings (HuggingFace)
+sentence-transformers
+torch
+
+# LLM (Groq)
+langchain-groq
+
+# Utils
+numpy
+scikit-learn
