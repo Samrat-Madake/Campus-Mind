@@ -7,6 +7,10 @@ from app.ingestion.embedder import get_embedding_model
 VECTOR_STORE_PATH = "data/vector_store"
 
 
+#  BM25 
+# pip install rank_bm25
+from langchain_community.retrievers import BM25Retriever
+from langchain_classic.retrievers import EnsembleRetriever
 
 # ---------------------------------------------------
 # Load Vector Store
@@ -79,18 +83,13 @@ def load_vectorstore():
 #     return multiquery_retriever
 
 
-# ---------------------------------------------------
-# 4️⃣ MultiQuery + MMR +Scores (Advanced Retrieval)
+# ----------------------------------------------
+# 4️⃣ MultiQuery + MMR +Scores
 # ---------------------------------------------------
 def get_multiquery_mmr_with_scores(query: str, k: int = 4):
     db = load_vectorstore()
     llm = get_llm()
 
-    # Step 1: MMR retriever
-    # mmr_retriever = db.as_retriever(
-    #     search_type="mmr",
-    #     search_kwargs={"k": k}
-    # )
     mmr_retriever = db.as_retriever(
         search_type="mmr",
         search_kwargs={
@@ -116,27 +115,80 @@ def get_multiquery_mmr_with_scores(query: str, k: int = 4):
 
     return results
 
+# 5️⃣
+#  BM25 Retriver
+def get_bm25_retriever():
+    """
+    Creates BM25 retriever from stored documents.
+    """
 
+    db = load_vectorstore()
+
+    # Extract documents from FAISS store
+    docs = list(db.docstore._dict.values())
+
+    bm25_retriever = BM25Retriever.from_documents(docs)
+    bm25_retriever.k = 5
+
+    return bm25_retriever
+
+# 6️⃣
+#  Hybrid Retriver : MultiQuery + MMR + BM25
+def get_multiquery_mmr_BM25_with_scores(query: str, k: int = 4):
+    db = load_vectorstore()
+    llm = get_llm()
+
+    # Step 1: MMR
+    mmr_retriever = db.as_retriever(
+        search_type="mmr",
+        search_kwargs={
+            "k": k,
+            "lambda_mult": 0.4
+        }
+    )
+
+    # Step 2: MultiQuery wrapper
+    multiquery = MultiQueryRetriever.from_llm(
+        retriever=mmr_retriever,
+        llm=llm
+    )
+
+    # Step 3: BM25 retriever
+    bm25_retriever = get_bm25_retriever()
+
+    # Step 4 : Combine both
+    hybrid_retriever = EnsembleRetriever(
+        retrievers=[multiquery, bm25_retriever],
+        weights=[0.5, 0.5]  
+    )
+
+
+    # Step 5: Get documents
+    docs = hybrid_retriever.invoke(query)
+
+    # Step 6: Re-score manually
+    results = []
+    for doc in docs:
+        score = db.similarity_search_with_score(doc.page_content, k=1)[0][1]
+        results.append((doc, score))
+
+    return results
 
 # ---------------------------------------------------
 # ---------------------------------------------------
 def get_relevant_chunks_with_scores(query: str, k: int = 5):
+    # return get_multiquery_mmr_BM25_with_scores(query, k=k)
     return get_multiquery_mmr_with_scores(query, k=k)
 
 '''
-🧠 What MMR Actually Optimizes
+### What MMR Actually Optimizes
 
 Conceptually, MMR selects documents using:
-
-
 MMR= λ x Relevance - (1 - λ) x Redundancy
 
 Where:
-
 Relevance = similarity to user query
-
 Redundancy = similarity to already selected documents
-
 λ (lambda_mult) = balance factor
 
 OUR CASE:  λ : 0.4 
