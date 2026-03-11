@@ -203,5 +203,827 @@
     "ticket_id": "010739cf-d626-4d65-a4de-0f22664363aa",
     "answer": "temp answer",
     "timestamp": "2026-02-05T08:49:28.466165+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "Significance of feature scaling",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 0
+      }
+    ],
+    "timestamp": "2026-03-03T09:25:44.380360+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "Significance of feature scalin",
+    "confidence": 0.65,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 0
+      }
+    ],
+    "timestamp": "2026-03-03T09:26:25.007347+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "Significance of feature scaling",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 5.pdf",
+        "page": 17
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 15
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 16
+      }
+    ],
+    "timestamp": "2026-03-03T10:18:49.008029+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "Significance of feature scaling",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 5
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 17
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 7
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 13
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 14
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 15
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 16
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 20
+      }
+    ],
+    "timestamp": "2026-03-03T11:00:12.154710+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "formula of  Standardization",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 5
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 17
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 20
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 7
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 5
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 15
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 9
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 16
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 15
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 0
+      }
+    ],
+    "timestamp": "2026-03-03T11:05:20.184508+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "formula of Standardization",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 5.pdf",
+        "page": 17
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 7
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 20
+      }
+    ],
+    "timestamp": "2026-03-03T11:08:05.808496+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "what are Bin Boundaries explain in detail",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 5.pdf",
+        "page": 17
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 7
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 9
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 10
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 13
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 5
+      }
+    ],
+    "timestamp": "2026-03-06T09:13:49.664804+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "what are Bin Boundaries explain in detail",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 5.pdf",
+        "page": 17
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 7
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 9
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 4
+      }
+    ],
+    "timestamp": "2026-03-10T06:15:38.044689+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "what is normalisation in dbms",
+    "confidence": 0.2,
+    "action": "escalated",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 13
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 7
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 10
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 5
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 20
+      }
+    ],
+    "ticket_id": "4e581a9f-4973-4e50-ae3f-809060fea1f6",
+    "timestamp": "2026-03-10T06:16:29.849867+00:00"
+  },
+  {
+    "type": "mentor_response",
+    "ticket_id": "4e581a9f-4973-4e50-ae3f-809060fea1f6",
+    "answer": "tempsdfsdf",
+    "timestamp": "2026-03-10T06:16:48.481187+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "what are Bin Boundaries explain in detail",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 3.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 9
+      }
+    ],
+    "timestamp": "2026-03-11T15:51:33.102022+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "significance of feature scaling",
+    "confidence": 0.45,
+    "action": "escalated",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      }
+    ],
+    "ticket_id": "7f0b0326-9332-44d6-acb9-726ac167c34a",
+    "timestamp": "2026-03-11T15:52:07.010312+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "formula of Standardization",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 5
+      }
+    ],
+    "timestamp": "2026-03-11T15:52:42.785279+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "formula of Standardization also explain what is it in short",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 3
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 5
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 9
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 2
+      }
+    ],
+    "timestamp": "2026-03-11T16:06:56.010444+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "Explain RISC vs CISC",
+    "confidence": 0.65,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 1.pdf",
+        "page": 24
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 23
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 92
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 17
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      }
+    ],
+    "timestamp": "2026-03-11T18:42:48.822625+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "whats n1 n2 n3 normalisations",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 82
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 10
+      }
+    ],
+    "timestamp": "2026-03-11T18:46:49.900530+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "whats n1 n2 n3 normalisations",
+    "confidence": 0.2,
+    "action": "escalated",
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 82
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 10
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 9
+      }
+    ],
+    "ticket_id": "84501e0e-484d-4472-8d6f-ccef9709154f",
+    "timestamp": "2026-03-11T18:47:13.972099+00:00"
+  },
+  {
+    "type": "mentor_response",
+    "ticket_id": "84501e0e-484d-4472-8d6f-ccef9709154f",
+    "answer": "Thats DBMS question\n",
+    "timestamp": "2026-03-11T18:47:34.694776+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "what are different hazards in pipeline",
+    "confidence": 0.45,
+    "action": "escalated",
+    "sources": [
+      {
+        "source": "Unit 1.pdf",
+        "page": 48
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 52
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 47
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 53
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 58
+      }
+    ],
+    "ticket_id": "d88f9117-254d-490c-8dec-bdb60d7cd29c",
+    "timestamp": "2026-03-11T18:48:01.253088+00:00"
+  },
+  {
+    "type": "student_query",
+    "question": "what is pipeline and what are different type of hazards",
+    "confidence": 0.85,
+    "action": "answered",
+    "sources": [
+      {
+        "source": "Unit 1.pdf",
+        "page": 52
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 53
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 92
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 93
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 33
+      }
+    ],
+    "timestamp": "2026-03-11T18:49:36.797092+00:00"
   }
 ]

@@ -3,16 +3,21 @@ fastapi
 uvicorn
 python-dotenv
 pydantic
+python-multipart
 
 # LangChain Core
 langchain
 langchain-community
-langchain-core 
+langchain-core
 langchain-huggingface
+langchain-classic
 huggingface-hub
 
 # Vector DB
 faiss-cpu
+
+# Keyword Search
+rank_bm25
 
 # Document parsing
 pypdf

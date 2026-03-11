@@ -1,28 +1,25 @@
-import os
-from dotenv import load_dotenv
-from langchain_groq import ChatGroq
-from langchain_community.embeddings import HuggingFaceEmbeddings
+"""
+DEPRECATED — Use app.services.model_service.ModelService instead.
+This file is kept for backwards compatibility only.
+"""
+from app.core.settings import GROQ_API_KEY, LLM_MODEL, LLM_TEMPERATURE, EMBEDDING_MODEL
 
-load_dotenv()
+from langchain_groq import ChatGroq
+from langchain_huggingface import HuggingFaceEmbeddings
 
 
 def get_llm():
-    """
-    Returns ChatGroq LLM instance.
-    """
-    print("GROQ KEY LOADED:", os.getenv("GROQ_API_KEY") is not None)
+    """Returns ChatGroq LLM instance. Prefer ModelService.get().llm instead."""
     return ChatGroq(
-        # model="llama3-8b-8192",
-        model="llama-3.1-8b-instant",
-        temperature=0.4,   # IMPORTANT for education
-        groq_api_key=os.getenv("GROQ_API_KEY")
+        model=LLM_MODEL,
+        temperature=LLM_TEMPERATURE,
+        groq_api_key=GROQ_API_KEY,
     )
 
 
 def get_embedding_model():
-    """
-    Returns HuggingFace SentenceTransformer embeddings.
-    """
+    """Returns HuggingFace embedding model. Prefer ModelService.get().embedding_model instead."""
     return HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
+        model_name=EMBEDDING_MODEL,
+        encode_kwargs={"normalize_embeddings": True},
     )

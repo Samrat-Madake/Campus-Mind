@@ -73,5 +73,161 @@
     ],
     "answer": "temp answer",
     "status": "answered"
+  },
+  {
+    "id": "4e581a9f-4973-4e50-ae3f-809060fea1f6",
+    "question": "what is normalisation in dbms",
+    "confidence": 0.2,
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 6
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 4
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 13
+      },
+      {
+        "source": "Unit 5.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 1
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 7
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 0
+      },
+      {
+        "source": "Unit 4.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 10
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 8
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 5
+      },
+      {
+        "source": "Unit 2.pdf",
+        "page": 11
+      },
+      {
+        "source": "Unit 3.pdf",
+        "page": 20
+      }
+    ],
+    "answer": "tempsdfsdf",
+    "status": "answered"
+  },
+  {
+    "id": "7f0b0326-9332-44d6-acb9-726ac167c34a",
+    "question": "significance of feature scaling",
+    "confidence": 0.45,
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 0
+      }
+    ],
+    "answer": null,
+    "status": "pending"
+  },
+  {
+    "id": "84501e0e-484d-4472-8d6f-ccef9709154f",
+    "question": "whats n1 n2 n3 normalisations",
+    "confidence": 0.2,
+    "sources": [
+      {
+        "source": "Unit 4.pdf",
+        "page": 2
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 82
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 12
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 10
+      },
+      {
+        "source": "Unit 6.pdf",
+        "page": 9
+      }
+    ],
+    "answer": "Thats DBMS question\n",
+    "status": "answered"
+  },
+  {
+    "id": "d88f9117-254d-490c-8dec-bdb60d7cd29c",
+    "question": "what are different hazards in pipeline",
+    "confidence": 0.45,
+    "sources": [
+      {
+        "source": "Unit 1.pdf",
+        "page": 48
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 52
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 47
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 53
+      },
+      {
+        "source": "Unit 1.pdf",
+        "page": 58
+      }
+    ],
+    "answer": null,
+    "status": "pending"
   }
 ]
